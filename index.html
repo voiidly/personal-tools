@@ -1,15 +1,22 @@
-<div class="container">
-  <label for="link-input"><b>Input your URL:</b></label>
-  <div class="input-container">
-    <input type="text" id="link-input" name="link" placeholder="Enter URL here" size="125">
-    <button class="button" onclick="setVideoLink()">Set Link</button>
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  
+  <div class="container">
+    <label for="link-input"><b>Input your URL:</b></label>
+    <div class="input-container">
+      <input type="text" id="link-input" name="link" placeholder="Enter URL here" size="125">
+      <button class="button" onclick="setVideoLink()">Set Link</button>
+    </div>
+    <p>Everything will resize automatically.</p>
   </div>
-  <p>Everything will resize automatically.</p>
-</div>
-
-<div class="video-container">
-  <video id="video-frame" controls>
-    <source src="" type="video/mp4">
-    Your browser does not support the video tag.
-  </video>
-</div>
+  
+  <div class="video-container">
+    <video id="video-frame" controls>
+      <source src="" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+  </div>
+</html>
